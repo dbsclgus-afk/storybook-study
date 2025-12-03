@@ -7,7 +7,7 @@ export const Button = ({
   primary = false,
   backgroundColor = null,
   size = 'medium',
-  label,
+  label = "Changed Button",   
   ...props
 }) => {
   const mode = primary ? 'storybook-button--primary' : 'storybook-button--secondary';
@@ -15,7 +15,7 @@ export const Button = ({
     <button
       type="button"
       className={['storybook-button', `storybook-button--${size}`, mode].join(' ')}
-      style={backgroundColor && { backgroundColor }}
+      style={ backgroundColor: 'pink', color: 'white' }}
       {...props}
     >
       {label}
