@@ -24,7 +24,7 @@ export default {
 export const Primary = {
   args: {
     primary: true,
-    label: 'Button',
+    label: '🔥 자동 배포 테스트 버튼 🔥',
   },
 };
 
