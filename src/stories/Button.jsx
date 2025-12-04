@@ -32,6 +32,6 @@ Button.propTypes = {
   size: PropTypes.oneOf(['small', 'medium', 'large']),
   /** Button contents */
   label: PropTypes.string.isRequired,
-  /** Optional click handler */
+  /** 클릭하면 실행되는 함수 */
   onClick: PropTypes.func,
 };

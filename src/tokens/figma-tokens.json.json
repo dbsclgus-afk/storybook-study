@@ -1,0 +1,12 @@
+{
+  "colors": {
+    "primary": "#FF3366",
+    "secondary": "#0066FF",
+    "background": "#F5F5F5"
+  },
+  "radius": {
+    "sm": "4px",
+    "md": "8px",
+    "lg": "16px"
+  }
+}
